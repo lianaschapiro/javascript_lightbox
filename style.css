@@ -1,3 +1,8 @@
+body {
+	background-color: #33CCCC;
+	text-align: center;
+}
+
 a {
 	padding: 20px;
 }
@@ -8,18 +13,20 @@ a {
 	height: 100%;
 	top: 0px;
 	left: 0px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, .95);
 	display: none;
-}
-
-.inner-lightbox {
-	margin: 0 auto;
 }
 
 img {
 	display: block;
 	height: 400px;
-	margin: 180px auto;
-	border: solid 3px black;
+	margin: 0 auto;
+	border: solid 3px white;
 	border-radius: 10px;
+}
+
+.inner-lightbox h2 {
+	color: white;
+	margin: 120px auto 30px;
+	text-align: center;
 }
